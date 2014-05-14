@@ -69,7 +69,6 @@
           } else {
             pageUrl = pageDocument.get('url');
           }
-          docpad.log('info', pageNumber, pageId, pageUrl);
           return pageUrl;
         };
         templateData.hasNextPage = function(document) {
